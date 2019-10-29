@@ -24,6 +24,6 @@ int compare(const void *a, const void *b){
 	char *str1 = (char*)a;
 	char *str2 = (char*)b;
 
-	return strcmp(str1,str2); //str1 > str2ÀÌ¸é 1 ¹ÝÈ¯ >> ¿À¸§Â÷¼ø Á¤·Ä
+	return strcmp(str1,str2); //str1 > str2ì´ë©´ 1 ë°˜í™˜ >> ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
 
 }
