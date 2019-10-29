@@ -24,7 +24,6 @@ int compare(const void *a, const void *b){
 	char *str1 = (char*)a;
 	char *str2 = (char*)b;
 
-	return strcmp(str1,str2);
-	//str1 > str2이면 1 반환 >> 오름차순 정렬
-	
+	return strcmp(str1,str2); //str1 > str2이면 1 반환 >> 오름차순 정렬
+
 }
